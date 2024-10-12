@@ -224,7 +224,7 @@ function processData(canvas_elem, data) {
       lastFPSUpdate = timestamp;
     }
 
-    const ITER_NUM = 30;
+    const ITER_NUM = 50;
     for (let iter_id = 0; iter_id < ITER_NUM; iter_id++) {
       drawTriangles(drawInfo.gl, drawInfo.program, drawInfo.vao, bufferInfo.back_color, drawInfo.count);
     }
